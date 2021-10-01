@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <header>
+            <title>accordion</title>
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <link rel="stylesheet" href="CSS/bootstrap.min.css">
+            <link rel="stylesheet" href="stylesheet/accordion.css">
+        </header>
+
+        <section>
+            <div class="accordion" id="parent">
+                <div class="accordion-item">
+                    <p class="accordion-header" >
+                       <button class="accordion-button"   data-bs-target="#bodyone"  data-bs-toggle="collapse" style="background-color: tomato; color:  white;">
+                        
+                         Vision 
+                       </button>
+                    </p>
+                    <div class="accordion-collpase body" id="bodyone" data-bs-parent="#parent" >
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugiat, dolorum, tenetur debitis sit quisquam modi, accusamus quibusdam repudiandae sed saepe nisi non eaque. Maxime praesentium reprehenderit aperiam soluta tempora?
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h class="accordion-header">
+                       <button class="accordion-button" data-bs-target="#bodytwo" data-bs-toggle="collapse" style="background-color: tomato; color:  white;">
+                           Mission
+                       </button>
+                    </h>
+                    <div class="accordion-collpase body" id="bodytwo" data-bs-parent="#parent">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugiat, dolorum, tenetur debitis sit quisquam modi, accusamus quibusdam repudiandae sed saepe nisi non eaque. Maxime praesentium reprehenderit aperiam soluta tempora?
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h class="accordion-header">
+                       <button class="accordion-button" data-bs-target="#bodythree" data-bs-toggle="collapse" style="background-color: tomato; color:  white;">
+                           Content
+                       </button>
+                    </h>
+                    <div class="accordion-collpase body" id="bodythree" data-bs-parent="#parent">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugiat, dolorum, tenetur debitis sit quisquam modi, accusamus quibusdam repudiandae sed saepe nisi non eaque. Maxime praesentium reprehenderit aperiam soluta tempora?
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <img src="img/cover_website_architecture.png">
+            </div>
+        </section>
+        <section>
+            
+        </section>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>

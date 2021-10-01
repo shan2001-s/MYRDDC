@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+
+
+<meta charset="utf-8">
+
+
+
+<style>
+	* {
+	 margin: 0;
+	background: rgb(80, 80, 228);;
+	}
+	
+	
+	
+	.navbar {
+	  overflow: hidden;
+	  background-color: navy;
+	
+	  
+	}
+	
+	.navbar a {
+	  float: left;
+	  font-size: 16px;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+	
+	.dropdown {
+	  float: left;
+	  overflow: hidden;
+	}
+	
+	.dropdown .dropbtn {
+	  font-size: 16px;  
+	  border: none;
+	  outline: none;
+	  color: white;
+	  padding: 14px 16px;
+	  background-color: inherit;
+	  font: inherit;
+	  margin: 0;
+	}
+	
+	.navbar a:hover, .dropdown:hover .dropbtn {
+	  background-color: red;
+	}
+	
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  width: 100%;
+	  left: 0;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+	
+	.dropdown-content .header {
+	  background: red;
+	  padding: 16px;
+	  color: white;
+	}
+	
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+	
+	
+	.column {
+	  float: left;
+	  width: 22.33%;
+	  padding: 10px;
+	  background-color:navy;
+	  height:100%;
+	}
+	
+	.column  a {
+	  float: none;
+	  color:white;
+	  padding: 16px;
+	  text-decoration: none;
+	  display: block;
+	  text-align: left;
+	}
+	h3{
+		color: white;
+		padding: 16px;
+	}
+	
+	.column a:hover {
+	  background-color: rgb(98, 88, 241);
+	}
+	
+	
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+	</style>
+	</head>
+	<body>
+		<link rel="stylesheet" href="CSS">
+	
+	<div class="navbar">
+	 
+	  <div class="dropdown">
+		<button class="dropbtn">About UK
+		 
+		</button>
+		<div class="dropdown-content">
+		    
+		  <div class="row" style="background-color: navy;">
+			<div class="column" >
+			  <h3>About UK</h3>
+			  <a href="#">The University of Kentucky has a broad range of resources centered on a single campus in the heart of the Bluegrass. Our wide array of programs allows us to excel in multidisciplinary studies and fosters an environment of cooperative engagement across all colleges, programs, and research endeavors. Because of the lives we touch and teach, we remain anchored in our mission to Kentucky– to educate, innovate, heal, and serve. To be sure, our complex, multi-faceted mission looks different today in many ways than it did in 1865. However, our sense of responsibility to our communities on campus and across the region is resolute. The mission has evolved and grown. The vision of service to our Commonwealth and the world beyond remains the same. They remain our compass – the soul of the University of Kentucky.</a>
+			 
+			</div>
+			<div class="column">
+			  <h3>Category 1</h3>
+			  <a href="#">About 1</a>
+			  <a href="#">About 2</a>
+			  <a href="#">About 3</a>
+			  <a href="#">About 4</a>
+			  <a href="#">About 5</a>
+			  <a href="#">About 6</a>
+			  <a href="#">About 7</a>
+			  
+			</div>
+			<div class="column">
+			  <h3>Category 2</h3>
+			  <a href="#">About 1</a>
+			  <a href="#">About 2</a>
+			  <a href="#">About 3</a>
+			  <a href="#">About 4</a>
+			 
+			</div>
+			<div class="column">
+				<h3>Category 3</h3>
+				<a href="#">Connect Us</a>
+				<a href="#">UK Now</a>
+				
+			  </div>
+		  </div>
+		</div>
+	  </div> 
+
+	  <div class="dropdown">
+		<button class="dropbtn">Academic
+		 
+		</button>
+		<div class="dropdown-content">
+		    
+		  <div class="row" style="background-color: navy;">
+			<div class="column" >
+			  <h3>Academic</h3>
+			  <a href="#">
+				UK has a strong faculty core that supports more than 200 academic programs spread across 16 degree-granting colleges, the Lewis Honors College, Graduate School, and the UK Library system. In the last several years, UK has received nearly 100 national rankings for excellence in academics, research, health care, and economic development. U.S. News and World Report ranks several of UK’s graduate programs among the nation’s best: the Martin School of Public Policy and Administration is ranked fourth in the category of public finance and budgeting, and the College of Pharmacy is ranked sixth. The University of Kentucky earned 28 Top 10 rankings and 50 Top 25 rankings over the last several years.
+			  </a>
+			 
+			</div>
+			<div class="column">
+			  <h3>Category 1</h3>
+			  <a href="#">Academic 1</a>
+			  <a href="#">Academic 2</a>
+			  <a href="#">Academic 3</a>
+			  <a href="#">Academic 4</a>
+			  <a href="#">Academic 5</a>
+			 
+			</div>
+			<div class="column">
+			  <h3>Category 2</h3>
+			  <a href="#">Academic 1</a>
+			  <a href="#">Academic 2</a>
+			  <a href="#">Academic 3</a>
+			  <a href="#">Academic 4</a>
+			 
+			</div>
+			<div class="column">
+				<h3>Category 3</h3>
+				<a href="#">Connect Us Academic</a>
+				<a href="#">UK Now Academic</a>
+				
+			  </div>
+		  </div>
+		</div>
+	  </div> 
+
+	  <div class="dropdown">
+		<button class="dropbtn">Admissions
+		 
+		</button>
+		<div class="dropdown-content">
+		    
+		  <div class="row" style="background-color: navy;">
+			<div class="column" >
+			  <h3>Admissions</h3>
+			  <a href="#">With more than 200 academic programs spread across 16 colleges and professional schools, more than 450 student organizations and clubs excited for new members or the 22 varsity sports programs to follow throughout the year, there is something for everyone at the University of Kentucky. Visit our admissions website for answers, insights, and stories that hopefully make your college decision a little easier. Our mission is to support the success of colleges and students in their commitment to academic excellence through outstanding service. Our recruitment team is dedicated to assisting you during the college selection process..</a>
+			 
+			</div>
+			<div class="column">
+			  <h3>Category 1</h3>
+			  <a href="#">Admissions 1</a>
+			  <a href="#">Admissions 2</a>
+			  <a href="#">Admissions 3</a>
+			  <a href="#">Admissions 4</a>
+			  <a href="#">Admissions 5</a>
+			  <a href="#">Admissions 6</a>
+			  <a href="#">Admissions 7</a>
+			  
+			</div>
+			<div class="column">
+			  <h3>Category 2</h3>
+			  <a href="#">Admissions 1</a>
+			  <a href="#">Admissions 2</a>
+			  <a href="#">Admissions 3</a>
+			  <a href="#">Admissions 4</a>
+			 
+			</div>
+			<div class="column">
+				<h3>Category 3</h3>
+				<a href="#">Connect Us</a>
+				<a href="#">UK Now</a>
+				
+			  </div>
+		  </div>
+		</div>
+	  </div> 
+
+	  <div class="dropdown">
+		<button class="dropbtn">Athletics
+		 
+		</button>
+		<div class="dropdown-content">
+		    
+		  <div class="row" style="background-color: navy;">
+			<div class="column" >
+			  <h3>Athletics</h3>
+			  <a href="#">The University of Kentucky has a broad range of resources centered on a single campus in the heart of the Bluegrass. Our wide array of programs allows us to excel in multidisciplinary studies and fosters an environment of cooperative engagement across all colleges, programs, and research endeavors. Because of the lives we touch and teach, we remain anchored in our mission to Kentucky– to educate, innovate, heal, and serve. To be sure, our complex, multi-faceted mission looks different today in many ways than it did in 1865. However, our sense of responsibility to our communities on campus and across the region is resolute. The mission has evolved and grown. The vision of service to our Commonwealth and the world beyond remains the same. They remain our compass – the soul of the University of Kentucky.</a>
+			 
+			</div>
+			<div class="column">
+			  <h3>Category 1</h3>
+			  <a href="#">Athletics 1</a>
+			  <a href="#">Athletics 2</a>
+			  <a href="#">Athletics 3</a>
+			  <a href="#">Athletics 4</a>
+			  <a href="#">Athletics 5</a>
+			  <a href="#">About 6</a>
+			  
+			  
+			</div>
+			<div class="column">
+			  <h3>Category 2</h3>
+			  <a href="#">About 1</a>
+			  <a href="#">About 2</a>
+			  <a href="#">About 3</a>
+			  <a href="#">About 4</a>
+			 
+			</div>
+			<div class="column">
+				<h3>Category 3</h3>
+				<a href="#">Connect Us</a>
+				<a href="#">UK Now</a>
+				
+			  </div>
+		  </div>
+		</div>
+		
+	  </div> 
+	  <a href="#home">Current Students</a>
+	  <a href="#news">Research</a>
+	  <a href="#news">UK Health Care</a>
+
+	</div>
+	
+	
+	
+	</body>
+	</html>
+	
+
